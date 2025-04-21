@@ -46,3 +46,5 @@ jobs:
           script: |
             cd ${{ secrets.PATH }}
             docker-compose pull && docker-compose down && docker-compose up -d
+
+  #git clone repo and run docker-compose up -d
